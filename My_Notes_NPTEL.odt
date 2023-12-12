@@ -1,0 +1,26 @@
+﻿																									Nptel_Khapra
+1. Mc Pits Neuron:-
+	used for binary classification linearly. Sum of inputs > threshold output = 1, else output = 0.
+2. Perceptron:-
+	Used when giving more weights to inputs and weights are introduced.
+	Let's say I have a line   y  =  w1*x1+w2*x2. If any point that solves this equation, it means that vectors w ( weights ) and x ( inputs ) are perpendicular to each other.
+	y  =  w1*x1+w2*x2 ==> (w^T).x
+
+LEC: 18
+	We can represent any function ( linearly seperable or non-linearly seperable ) using a network. If I have n boolean inputs ( for logical functions )
+	2^n perceptrons in  a hidden layer is required.
+	
+LEC: 19
+Sigmoid functions:-
+	I have a threshold 0.5, if output is 0.51 ( greater than 0.5 ) , liked a movie.
+	If output is 0.49 then dislike the movie. It's harsh decision.  Not justified. So we  introduce sigmoid functions which is smooth and whose output lies
+	b/n 0 & 1 ( just like probability ). Using sigmoid I can say how much I like movie.
+	
+LEC: 20
+Learnign Algo Set-up:
+	With out learning  parameters what will you with input data. From the input data we have to learn parameters to predict the output which is 
+	approximate to ground truth. One such algorithm is Gradient-descent algorithm.  We have input data, weights ( learnable ).
+	
+	
+	
+

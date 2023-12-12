@@ -1,0 +1,69 @@
+﻿					NLP
+
+Some Ambiguity sentences..............
+
+Buffalo(city in NY) buffalo(animal) Buffalo(city) buffalo(verb bully) buffalo buffalo Buffalo(city) buffalo(animal).
+  The man saw the boy with binoculars.
+  	a) Does it mean "the boy with binoculars"?
+  	b) Does it mean "man saw the boy with binoculars"?
+
+	
+Function words Vs Content words
+
+Function words makes sentence grammatical, whereas content words are nouns and verbs(represents important concept in the sentences).
+
+Content words are mainly used for determining the structure of the sentences. Function words examples are prepositions, pronouns, auxilary verbs, conjuctions, grammatical articles,particles, etc.
+
+
+
+"The sly brown fox jumped gracefully over the lazy dog and cat," the content words are: 
+fox, dog,and cat (nouns),sly, brown, and lazy (adjectives),gracefully (adverb),jumped (main verb).
+
+Function words include: 
+the (determiner),over (preposition),and (conjunction).
+
+Content words are words that have meaning.Function words are words that exist to explain or create grammatical or structural relationships into which the content words may fit.
+
+Token Type Distinction:-
+	
+		Token type disctinction is a distinciton that seperates a concept from objects which are particular instance of concepts.
+The TTR is a useful tool in analyzing the complexity and richness of a language or text.
+
+
+
+
+For example, let's consider the following two sentences:
+    1. "The cat sat on the mat."
+    2. "The feline perched gracefully on the soft and plush carpet."
+Both sentences convey the same basic meaning, but they differ in their complexity and richness.
+Sentence 1 is a simple, straightforward sentence with a limited vocabulary and basic sentence structure. It has a TTR of 100% because each word in the sentence is unique, and there are no repetitions.
+Sentence 2, on the other hand, is more complex and rich in vocabulary. It uses a more specific word ("feline") to describe the cat, and includes more descriptive adjectives ("gracefully," "soft," and "plush"). The sentence structure is also more varied, with a longer, more elaborate sentence structure. It has a TTR of less than 100%, because some words are repeated, such as "the" and "on".
+
+
+
+														
+																											
+Both words in sentences “ Will will” are same. So, type = 1, tokens=2.
+
+If TTR is small, same words are repeating again and again. TTR is high( tendency to use unique words ), different words are used.
+
+														
+In the Shakespeare case, we have low TTR eventhough types and tokens are more compared with Tom Sawyer’s case. So, TTR will not be the best to measure the “ text complexity”. The other way is taking average every 1000 words with a window of 1000 words of all words in a text.
+
+
+
+The above fig tells that in a Tom Sawyer’s literature...
+3993 words repeated once.
+1292 words repeated twice.........
+102 words repeated more than 100 times.
+
+Zipf’s Law:-
+
+It is a probability distribution of words,tells how the vocabularies distributions behave.Zipf's law has been used to study the relationship between word frequency and word length, the role of function words in language comprehension, and the efficiency of language processing in the human brain.
+
+1. Count the frequency of each word type in a large corpous.
+2. List the word types in decreasing order of their frequency. Let’s see with an example
+
+Word Length & Word Frequency
+		Word frequency is inversely propotional to the word length.
+
